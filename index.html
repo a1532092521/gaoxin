@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .img1{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+    }
+    </style>
+</head>
+<body>
+    <div>
+         <p>输入获取头像的QQ号：<input type="text" class="input1"><button class="btn">获取</button></p>
+         
+         <hr>
+       <img src="" alt="" class="img1" >
+    </div>
+    <script>
+     let img = document.querySelector("img1")
+     let input = document.querySelector(".input1")
+     let button = document.querySelector(".btn")
+     let a 
+     button.addEventListener("click",function(){
+        // console.log(input.value);
+        a = input.value
+        console.log(img);
+        // img.scr = "https://q1.qlogo.cn/g?b=qq&nk=" + input.value + "&s=640"
+        // img =  "https://q1.qlogo.cn/g?b=qq&nk=" + a.value + "&s=640"
+        
+     })
+    </script>
+</body>
+</html>
